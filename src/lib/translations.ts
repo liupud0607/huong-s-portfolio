@@ -1,0 +1,241 @@
+
+export type Language = 'en' | 'vi';
+
+export const translations = {
+  en: {
+    nav: {
+      home: "Home",
+      about: "About",
+      skills: "Skills",
+      projects: "Works",
+      contact: "Contact",
+    },
+      hero: {
+        tags: ["Content Marketing", "Social Media", "Video Editing", "Design"],
+        titlePrefix: "Welcome to",
+        titleItalic: "Huong's",
+        titleSuffix: "Portfolio",
+        subtitle: "Crafting stories, designing experiences.",
+        scroll: "Scroll to explore",
+      },
+    arsenal: {
+      title: "The Creative",
+      titleItalic: "Arsenal.",
+      subtitle: "Tools and technologies curated for high-impact visual storytelling and strategic brand growth.",
+      skills: [
+        {
+          title: "Content Strategy",
+          tools: "META ADS / TIKTOK / YOUTUBE",
+          description: "Data-driven strategies for multi-platform reach and community engagement.",
+        },
+        {
+          title: "Visual Identity",
+          tools: "PTS / LIGHTROOM / CANVA",
+          description: "Crafting cohesive visual languages that resonate with target audiences.",
+        },
+        {
+          title: "Motion & Editing",
+          tools: "DAVINCI / CAPCUT",
+          description: "High-quality video production optimized for social conversion.",
+        },
+      ],
+    },
+    philosophy: {
+      label: "About Me",
+      titlePrefix: "Creativity guided by ",
+      titleItalic: "data.",
+      titleSuffix: " Execution driven by passion.",
+      description: "I am a multidisciplinary creator balancing the worlds of Information Systems and Digital Media. As a 2007-born freshman majoring in IS at UTT, I’ve already accumulated over a year of hands-on experience in the fast-paced communications and advertising industry.\n\nMy creative philosophy is simple: creativity needs a compass, and that compass is clear data. I thrive in environments where data is transparent, because once the numbers align, the creative flow becomes unstoppable, optimized, and incredibly fast.\n\nBeyond the screen, I pride myself on being highly adaptable, sociable, and deeply respectful of the mentorship from my superiors and colleagues. I am not just looking for a quick gig; I am here to build long-term value, collaborate closely, and grow alongside a forward-thinking team.",
+    },
+    experience: {
+      title: "Selected",
+      titleItalic: "Works",
+      titleSuffix: "& Campaigns",
+      projects: [
+        {
+          title: "Mapstudy",
+          category: "SOCIAL MEDIA & CONTENT STRATEGY",
+          description: "Starting as an English Teaching Assistant, my curiosity about e-learning platforms drove me to transition into Social Media.",
+          details: "Starting as an English Teaching Assistant, my curiosity about e-learning platforms drove me to transition into Social Media. I directly built the content strategy and established pillars that seamlessly blended educational value with trending/meme culture to engage students (including minitests, livestream recaps, study materials, and Q&A). By independently writing, designing, and collaborating with teachers, I achieved remarkable 100% organic growth: reaching **5.7 million views**, over **422,000 interactions**, and generating **718 new consultation conversations**. This was my proud and memorable first stepping stone into the media industry.",
+          image: "/src/assets/images/regenerated_image_1778012972177.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778013059342.jpg",
+            "/src/assets/images/regenerated_image_1778013160428.jpg"
+          ],
+          role: "Content Creator & Social Media Executive",
+          tools: "Google Sheets, Google Docs, Canva, AI Tools",
+          timeline: "10 Months (March - December)",
+        },
+        {
+          title: "Eplay English",
+          category: "SOCIAL MEDIA & CONTENT STRATEGY",
+          description: "Eplay English was running enrollment campaigns and a summer camp program, requiring content that could both demonstrate educational quality for children and attract attention on fast platforms like TikTok while targeting parents.",
+          details: "Eplay English was running enrollment campaigns and a summer camp program, requiring content that could both demonstrate educational quality for children and attract attention on fast platforms like TikTok while targeting parents.\n\nI joined as a Content Creator, responsible for writing campaign content and collaborating with the academic team to develop engaging concepts for the summer camp. Beyond writing, I expanded into design, video editing, and participating directly in the summer camp to gather real content.\n\nI researched parent and student insights to build content strategy and TikTok pillars. Within one month, I studied successful UK content formats, adapted them to Vietnamese parent audiences, adjusted tone and added unique angles. I developed the series **“What I see in London”**, combining universally interesting topics with a comprehensible input approach in English learning.\n\nAchievements:\n- **~6,000 organic followers growth**\n- Built TikTok content system within 1 month\n- Developed a successful content series",
+          image: "/src/assets/images/regenerated_image_1778050261456.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778051546553.jpg",
+            "/src/assets/images/regenerated_image_1778051550250.jpg"
+          ],
+          role: "Content Creator & Social Media",
+          tools: "Google Docs, Canva, TikTok, AI tools",
+          timeline: "07.2024 – 09.2024",
+        },
+        {
+          title: "Moc Mo Art",
+          category: "BRAND IDENTITY & VISUAL SYSTEM",
+          description: "Moc Mo Art is a creative ecosystem including Moc Mo Studio (services) and Moc Mo Tea (product line).",
+          details: "Moc Mo Art is a creative ecosystem including Moc Mo Studio (services) and Moc Mo Tea (product line). The challenge was to build a unified brand identity system that maintains consistency while adapting to two different directions (service and product). As a **Visual Lead**, I developed a scalable **identity system** that defined the brand’s visual language across platforms. Key deliverables included: logo design, product packaging, social media assets, and video editing. Instead of isolated designs, the focus was on consistency, scalability, and real-world usability. Built visual identity system for **2 brand branches** (Studio & Tea).",
+          image: "/src/assets/images/regenerated_image_1778052338402.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778052479733.jpg",
+            "/src/assets/images/regenerated_image_1778052481598.jpg"
+          ],
+          role: "Visual Lead",
+          tools: "Adobe Creative Suite, Canva, AI tools",
+          timeline: "09.2024 – 12.2024",
+        },
+        {
+          title: "PX Media",
+          category: "CONTENT STRATEGY & COMMUNITY BUILDING",
+          description: "At PX Media, I was responsible for building and optimizing the brand’s social media presence through two key projects.",
+          details: "At PX Media, I was responsible for building and optimizing the brand’s social media presence through two key projects.\n\nWith “Hội đồng quản trị vỉa hè”, I independently executed a full content pipeline: \n- trend research \n- scripting \n- video editing (post-production) \n\n→ building a community platform **from zero to initial traction**\n\nAt the same time, as a Content Assistant at “Tạp Hóa Kinh Tế”, I proactively bridged my knowledge gap by deeply researching **economic cycles** in order to collaborate effectively with the production team. \n\nBy combining: \n- strong language sensitivity \n- visual & sound optimization \n\nI contributed to scaling content performance and delivering valuable insights to a **mass audience**.\n\n**Key Highlights:**\n- Built and operated content system from **0 → community foundation**\n- Worked across both **entertainment & educational content domains**\n- Applied **trend-based storytelling + structured knowledge content**\n- Strengthened ability to translate complex topics into engaging formats",
+          image: "/src/assets/images/regenerated_image_1778051115685.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778054163079.jpg",
+            "/src/assets/images/regenerated_image_1778051321095.jpg"
+          ],
+          role: "Content Creator",
+          tools: "CapCut, Adobe Premiere, Facebook Business Suite, Canva",
+          timeline: "Dec 2025 – Feb 2026",
+        },
+      ],
+    },
+    cta: {
+      title: "Let's create something",
+      titleItalic: "together",
+      subtitle: "Always open to discussing new projects, creative ideas, or opportunities for bold visual execution.",
+      email: "Send an Email",
+      contact: "ZALO / CALL ME",
+      connectZalo: "Connect on Zalo",
+      scanToChat: "Scan to chat or add friend",
+    },
+  },
+  vi: {
+    nav: {
+      home: "Trang chủ",
+      about: "Giới thiệu",
+      skills: "Kỹ năng",
+      projects: "Dự án",
+      contact: "Liên hệ",
+    },
+    hero: {
+      tags: ["Content Marketing", "Mạng xã hội", "Dựng phim", "Thiết kế"],
+      titlePrefix: "Chào mừng đến với",
+      titleItalic: "Huong's",
+      titleSuffix: "Portfolio",
+      subtitle: "Kiến tạo những câu chuyện, thiết kế những trải nghiệm.",
+      scroll: "Cuộn để khám phá",
+    },
+    arsenal: {
+      title: "Kho tàng",
+      titleItalic: "Sáng tạo.",
+      subtitle: "Công cụ và công nghệ được tuyển chọn cho việc kể chuyện bằng hình ảnh và phát triển thương hiệu.",
+      skills: [
+        {
+          title: "Chiến lược Nội dung",
+          tools: "META ADS / TIKTOK / YOUTUBE",
+          description: "Chiến lược dựa trên dữ liệu giúp tiếp cận đa nền tảng và tương tác cộng đồng.",
+        },
+        {
+          title: "Nhận diện Thương hiệu",
+          tools: "PTS / LIGHTROOM / CANVA",
+          description: "Xây dựng ngôn ngữ hình ảnh nhất quán, khơi gợi cảm hứng cho khán giả mục tiêu.",
+        },
+        {
+          title: "Chuyển động & Dựng phim",
+          tools: "DAVINCI / CAPCUT",
+          description: "Sản xuất video chất lượng cao được tối ưu hóa cho tỷ lệ chuyển đổi xã hội.",
+        },
+      ],
+    },
+    philosophy: {
+      label: "Giới thiệu",
+      titlePrefix: "Sáng tạo dẫn lối bởi ",
+      titleItalic: "dữ liệu.",
+      titleSuffix: " Thực thi thúc đẩy bởi đam mê.",
+      description: "Tôi là một người sáng tạo đa lĩnh vực, đang cân bằng giữa thế giới của Hệ thống Thông tin và Truyền thông Kỹ thuật số. Là một sinh viên năm nhất sinh năm 2007 chuyên ngành IS tại UTT, tôi đã tích lũy được hơn một năm kinh nghiệm thực chiến trong ngành truyền thông và quảng cáo đầy năng động.\n\nTriết lý sáng tạo của tôi rất đơn giản: sự sáng tạo cần một chiếc kim chỉ nam, và chiếc kim chỉ nam đó chính là dữ liệu rõ ràng. Tôi phát triển mạnh mẽ trong những môi trường mà dữ liệu minh bạch, bởi một khi các con số đã khớp, dòng chảy sáng tạo sẽ trở nên không thể ngăn cản, được tối ưu hóa và vô cùng nhạy bén.\n\nBên cạnh công việc chuyên môn, tôi tự hào là một người có khả năng thích nghi cao, hòa đồng và luôn dành sự tôn trọng sâu sắc trước sự hướng dẫn từ cấp trên và đồng nghiệp. Tôi không chỉ tìm kiếm một công việc ngắn hạn; tôi ở đây để xây dựng những giá trị lâu dài, cộng tác chặt chẽ và phát triển cùng một đội ngũ có tầm nhìn xa.",
+    },
+    experience: {
+      title: "Các",
+      titleItalic: "Dự án",
+      titleSuffix: "& Chiến dịch tiêu biểu",
+      projects: [
+        {
+          title: "Mapstudy",
+          category: "SOCIAL MEDIA & CHIẾN LƯỢC NỘI DUNG",
+          description: "Khởi đầu là một Trợ giảng Tiếng Anh, sự tò mò với nền tảng giáo dục trực tuyến đã thôi thúc tôi bước sang mảng Social Media.",
+          details: "Khởi đầu là một Trợ giảng Tiếng Anh, sự tò mò với nền tảng giáo dục trực tuyến đã thôi thúc tôi bước sang mảng Social Media. Tại đây, tôi trực tiếp xây dựng chiến lược và thiết lập các tuyến nội dung khéo léo lồng ghép giữa kiến thức giáo dục và yếu tố trending/meme để thu hút học sinh. Bằng việc tự tay viết nội dung, thiết kế và phối hợp cùng giáo viên, tôi đã giúp Fanpage phát triển hoàn toàn organic với những con số đáng nể: đạt **5,7 triệu lượt xem**, thu về hơn **422.000 lượt tương tác** và tạo ra **718 cuộc hội thoại mới**. Đây là bệ phóng đầu tiên đầy tự hào của tôi trong ngành truyền thông.",
+          image: "/src/assets/images/regenerated_image_1778012972177.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778013059342.jpg",
+            "/src/assets/images/regenerated_image_1778013160428.jpg"
+          ],
+          role: "Content Creator & Social Media Executive",
+          tools: "Google Sheets, Google Docs, Canva, AI Tools",
+          timeline: "10 Tháng (Tháng 3 - Tháng 12)",
+        },
+        {
+          title: "Eplay English",
+          category: "SOCIAL MEDIA & CHIẾN LƯỢC NỘI DUNG",
+          description: "Eplay English đang thực hiện các chiến dịch tuyển sinh và chương trình trại hè, yêu cầu nội dung vừa chứng minh chất lượng giáo dục cho trẻ vừa thu hút phụ huynh trên TikTok.",
+          details: "Eplay English đang thực hiện các chiến dịch tuyển sinh và chương trình trại hè, yêu cầu nội dung vừa có thể chứng minh chất lượng giáo dục dành cho trẻ em, vừa thu hút sự chú ý trên các nền tảng nhanh như TikTok đồng thời nhắm tới đối tượng phụ huynh.\n\nTôi tham gia với vai trò Content Creator, chịu trách nhiệm viết nội dung chiến dịch và phối hợp với đội ngũ học thuật để phát triển các concept hấp dẫn cho trại hè. Bên cạnh việc viết lách, tôi đã mở rộng sang thiết kế, dựng phim và trực tiếp tham gia trại hè để lấy tư liệu thực tế.\n\nTôi đã nghiên cứu insight của phụ huynh và học sinh để xây dựng chiến lược nội dung và các trụ cột trên TikTok. Trong vòng một tháng, tôi nghiên cứu các định dạng nội dung thành công tại Anh, thích nghi với phụ huynh Việt, điều chỉnh tông giọng và thêm các góc nhìn độc đáo. Tôi đã phát triển series **“What I see in London”**, kết hợp giữa các chủ đề thú vị và phương pháp tiếp cận comprehensible input.\n\nKết quả:\n- **Tăng trưởng ~6.000 followers tự nhiên**\n- Xây dựng hệ thống nội dung TikTok trong 1 tháng\n- Phát triển chuỗi nội dung thành công",
+          image: "/src/assets/images/regenerated_image_1778050261456.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778051546553.jpg",
+            "/src/assets/images/regenerated_image_1778051550250.jpg"
+          ],
+          role: "Content Creator & Social Media",
+          tools: "Google Docs, Canva, TikTok, AI tools",
+          timeline: "07.2024 – 09.2024",
+        },
+        {
+          title: "Moc Mo Art",
+          category: "HỆ THỐNG NHẬN DIỆN & HÌNH ẢNH THƯƠNG HIỆU",
+          description: "Mộc Mơ Art là một hệ sinh thái sáng tạo bao gồm Mộc Mơ Studio (dịch vụ) và Mộc Mơ Tea (dòng sản phẩm).",
+          details: "Mộc Mơ Art là một hệ sinh thái sáng tạo bao gồm Mộc Mơ Studio (dịch vụ) và Mộc Mơ Tea (dòng sản phẩm). Thách thức là xây dựng một hệ thống nhận diện thương hiệu thống nhất duy trì tính nhất quán khi thích ứng với hai hướng khác nhau (dịch vụ và sản phẩm). Với tư cách là **Visual Lead**, tôi đã phát triển một **hệ thống nhận diện** có khả năng mở rộng, định nghĩa ngôn ngữ hình ảnh của thương hiệu trên các nền tảng. Các sản phẩm chính bao gồm: thiết kế logo, bao bì sản phẩm, nội dung mạng xã hội và dựng phim. Thay vì các thiết kế đơn lẻ, trọng tâm là tính nhất quán, khả năng mở rộng và tính ứng dụng thực tế. Đã xây dựng hệ thống nhận diện hình ảnh cho **2 nhánh thương hiệu** (Studio & Tea).",
+          image: "/src/assets/images/regenerated_image_1778052338402.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778052479733.jpg",
+            "/src/assets/images/regenerated_image_1778052481598.jpg"
+          ],
+          role: "Visual Lead",
+          tools: "Adobe Creative Suite, Canva, AI tools",
+          timeline: "09.2024 – 12.2024",
+        },
+        {
+          title: "PX Media",
+          category: "CONTENT STRATEGY & COMMUNITY BUILDING",
+          description: "Tại PX Media, tôi chịu trách nhiệm xây dựng và tối ưu hóa sự hiện diện trên mạng xã hội của thương hiệu thông qua hai dự án chính.",
+          details: "Tại PX Media, tôi chịu trách nhiệm xây dựng và tối ưu hóa sự hiện diện trên mạng xã hội của thương hiệu thông qua hai dự án chính.\n\nVới dự án “Hội đồng quản trị vỉa hè”, tôi đã độc lập thực hiện toàn bộ quy trình sản xuất nội dung: \n- nghiên cứu xu hướng \n- lên kịch bản \n- dựng phim (hậu kỳ) \n\n→ xây dựng nền tảng cộng đồng **từ con số 0 đến những bước tiến ban đầu**.\n\nĐồng thời, với vai trò Trợ lý Nội dung tại “Tạp Hóa Kinh Tế”, tôi đã chủ động bù đắp lỗ hổng kiến thức bằng cách nghiên cứu sâu về **chu kỳ kinh tế** để phối hợp hiệu quả với đội ngũ sản xuất.\n\nBằng cách kết hợp: \n- sự nhạy bén về ngôn ngữ \n- tối ưu hóa hình ảnh & âm thanh \n\ntôi đã góp phần mở rộng hiệu suất nội dung và mang lại những hiểu biết giá trị cho **đại chúng**.\n\n**Các điểm nổi bật chính:**\n- Xây dựng và vận hành hệ thống nội dung từ **0 → nền tài cộng đồng**\n- Làm việc trên cả hai **lĩnh vực nội dung giải trí và giáo dục**\n- Áp dụng **kể chuyện dựa trên xu hướng + nội dung kiến thức bài bản**\n- Củng cố khả năng chuyển đổi các chủ đề phức tạp thành các định dạng hấp dẫn",
+          image: "/src/assets/images/regenerated_image_1778051115685.jpg",
+          gallery: [
+            "/src/assets/images/regenerated_image_1778054163079.jpg",
+            "/src/assets/images/regenerated_image_1778051321095.jpg"
+          ],
+          role: "Content Creator",
+          tools: "CapCut, Adobe Premiere, Facebook Business Suite, Canva",
+          timeline: "Tháng 12/2025 – Tháng 2/2026",
+        },
+      ],
+    },
+    cta: {
+      title: "Cùng nhau tạo nên",
+      titleItalic: "điều tuyệt vời",
+      subtitle: "Luôn sẵn sàng thảo luận về các dự án mới, ý tưởng sáng tạo hoặc cơ hội thực thi hình ảnh táo bạo.",
+      email: "Gửi Email",
+      contact: "ZALO / GỌI CHO TÔI",
+      connectZalo: "Kết nối qua Zalo",
+      scanToChat: "Quét để nhắn tin hoặc kết bạn",
+    },
+  },
+};
